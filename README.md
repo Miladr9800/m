@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="fa">
 <head>
     <meta charset="UTF-8">
@@ -96,9 +95,7 @@
                                 </div>
                             </div>
                             <div class="flex justify-center gap-2 mt-3">
-                                <button class="is-elevated text-white bg-blue-700 hover:bg-blue-800 transition-all focus:ring-4 focus:outline-none font-medium rounded-xl text-sm py-2.5 text-center inline-flex items-center" @click="modalQrCode = true" aria-label="نمایش QR Code">
-                                    <i class="fas fa-qrcode icon"></i> <span class="mx-2">QR CODE</span>
-                                </button>
+                               
                                 <button class="is-elevated text-white bg-blue-700 hover:bg-blue-800 transition-all focus:ring-4 focus:outline-none font-medium rounded-xl text-sm py-2.5 text-center inline-flex items-center" aria-label="نمایش لوکیشن">
                                     <i class="fas fa-location-arrow icon"></i> لوکیشن
                                 </button>

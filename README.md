@@ -125,7 +125,7 @@
                                         </div>
                                         <span>پیام به واتساپ موبایل رضائی</span>
                                     </a>
-                                    <a href="https://instagram.com/username" class="button" aria-label="لینک به اینستاگرام">
+                                    <a href="https://instagram.com/mobilerezaei.ir" class="button" aria-label="لینک به اینستاگرام">
                                         <div class="icon-container">
                                             <i class="fab fa-instagram icon"></i>
                                         </div>

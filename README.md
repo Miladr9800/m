@@ -5,6 +5,9 @@
     <link rel="stylesheet" href="https://card.thecartek.com/css/app.css">
     <link rel="stylesheet" href="https://card.thecartek.com/css/override.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- اضافه کردن لینک فونت بی مترا -->
+    <link href="https://cdn.fontcdn.ir/font/B-Mitra.css" rel="stylesheet" type="text/css">
+    
     <style>
         [wire\:loading], [wire\:loading\.delay], [wire\:offline], [wire\:dirty]:not(textarea):not(input):not(select) {
             display: none;
@@ -16,7 +19,8 @@
         @keyframes livewireautofill { from {} to {} }
 
         body {
-            margin-top: -100px; /* این مقدار را بر اساس نیاز تغییر دهید */
+            margin-top: -100px;
+            font-family: 'B Mitra', sans-serif; /* استفاده از فونت بی مترا */
         }
 
         .icon-container {
@@ -70,6 +74,7 @@
             text-decoration: none;
             color: #333;
             transition: background-color 0.3s;
+            cursor: pointer;
         }
 
         .button:hover {
@@ -80,6 +85,29 @@
         .button span {
             margin-left: 10px;
         }
+
+        .copy-btn {
+            background-color: #28a745;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        .copy-btn:hover {
+            background-color: #218838;
+        }
+
+        /* رنگی کردن آیکون شماره کارت و شبا */
+        .fa-credit-card {
+            background-color: #007bff; /* رنگ آبی برای شماره کارت */
+        }
+
+        .fa-university {
+            background-color: #28a745; /* رنگ سبز برای شماره شبا */
+        }
+
     </style>
 </head>
 <body x-data="{ openSidebar: false, clipboardCopy: false, modalQrCode: false, clipboard(val) { navigator.clipboard.writeText(val); this.clipboardCopy = true; setTimeout(() => this.clipboardCopy = false, 2000) }}">
@@ -97,7 +125,6 @@
                                 </div>
                             </div>
                             <div class="flex justify-center gap-2 mt-3">
-                                
                                 <form action="https://card.thecartek.com/download-vcf/25" method="post">
                                     <input type="hidden" name="_token" value="5bjKvZp2jaVIhv6xf9O9BEY7HCv0EvEC5XvUl7QX">
                                     <button class="is-elevated text-white bg-blue-700 hover:bg-blue-800 transition-all focus:ring-4 focus:outline-none font-medium rounded-xl text-sm py-2.5 text-center inline-flex items-center" aria-label="ذخیره مخاطب">
@@ -137,12 +164,29 @@
                                         </div>
                                         <span>ارسال ایمیل به موبایل رضائی</span>
                                     </a>
+                                    <!-- شماره کارت و شبا با قابلیت کپی -->
+                                    <div class="button">
+                                        <div class="icon-container">
+                                            <i class="fas fa-credit-card icon"></i>
+                                        </div>
+                                        <span>شماره کارت: 6037 9974 5227 1092</span>
+                                        <button class="copy-btn" onclick="navigator.clipboard.writeText('6037 9974 5227 1092')">کپی</button>
+                                    </div>
+                                    <div class="button">
+                                        <div class="icon-container">
+                                            <i class="fas fa-university icon"></i>
+                                        </div>
+                                        <span>شماره شبا: IR8005142000145255</span>
+                                        <button class="copy-btn" onclick="navigator.clipboard.writeText('IR8005142000145255')">کپی</button>
+                                    </div>
                                     <a href="https://www.google.com/maps?q=your+address" class="button" aria-label="مشاهده آدرس">
                                         <div class="icon-container">
                                             <i class="fas fa-map-marker-alt icon"></i>
                                         </div>
                                         <span>ایلام سرابله خیابان ولیعصر نبش پاساژ محمدی(مشاهده در نقشه کلیک کنید)</span>
                                     </a>
+
+
                                 </div>
                             </div>
                         </div>

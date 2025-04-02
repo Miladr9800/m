@@ -4,7 +4,6 @@
     <link rel="icon" href="https://card.thecartek.com/images/ct.png">
     <link rel="stylesheet" href="https://card.thecartek.com/css/app.css">
     <link rel="stylesheet" href="https://card.thecartek.com/css/override.css">
-    <!-- لینک به FontAwesome برای استفاده از آیکون‌ها -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         [wire\:loading], [wire\:loading\.delay], [wire\:offline], [wire\:dirty]:not(textarea):not(input):not(select) {
@@ -15,6 +14,10 @@
             animation-name: livewireautofill;
         }
         @keyframes livewireautofill { from {} to {} }
+
+        body {
+            margin-top: -100px; /* این مقدار را بر اساس نیاز تغییر دهید */
+        }
 
         .icon-container {
             display: flex;
@@ -32,29 +35,28 @@
             color: white;
         }
 
-        /* آیکون‌ها با رنگ‌های مخصوص به خود */
         .fa-phone-alt {
-            background-color: #34b7f1; /* رنگ آیکون تماس */
+            background-color: #34b7f1;
         }
 
         .fa-telegram-plane {
-            background-color: #0088cc; /* رنگ آیکون تلگرام */
+            background-color: #0088cc;
         }
 
         .fa-whatsapp {
-            background-color: #25d366; /* رنگ آیکون واتس اپ */
+            background-color: #25d366;
         }
 
         .fa-instagram {
-            background-color: #e4405f; /* رنگ آیکون اینستاگرام */
+            background-color: #e4405f;
         }
 
         .fa-envelope {
-            background-color: #d44638; /* رنگ آیکون ایمیل */
+            background-color: #d44638;
         }
 
         .fa-map-marker-alt {
-            background-color: #f39c12; /* رنگ آیکون آدرس */
+            background-color: #f39c12;
         }
 
         .button {
@@ -95,7 +97,6 @@
                                 </div>
                             </div>
                             <div class="flex justify-center gap-2 mt-3">
-                               
                                 <button class="is-elevated text-white bg-blue-700 hover:bg-blue-800 transition-all focus:ring-4 focus:outline-none font-medium rounded-xl text-sm py-2.5 text-center inline-flex items-center" aria-label="نمایش لوکیشن">
                                     <i class="fas fa-location-arrow icon"></i> لوکیشن
                                 </button>
@@ -111,42 +112,36 @@
                             </div>
                             <div class="px-5 pt-3">
                                 <div class="grid grid-cols-1 gap-2">
-                                    <!-- لینک تماس با شماره تلفن -->
                                     <a href="tel:09189444481" class="button" aria-label="تماس با 09189444481">
                                         <div class="icon-container">
                                             <i class="fas fa-phone-alt icon"></i>
                                         </div>
                                         <span>09189444481</span>
                                     </a>
-                                    <!-- لینک تلگرام -->
                                     <a href="https://t.me/username" class="button" aria-label="لینک به تلگرام">
                                         <div class="icon-container">
                                             <i class="fab fa-telegram-plane icon"></i>
                                         </div>
                                         <span>تلگرام</span>
                                     </a>
-                                    <!-- لینک واتس اپ -->
                                     <a href="https://wa.me/09189444481" class="button" aria-label="لینک به واتس اپ">
                                         <div class="icon-container">
                                             <i class="fab fa-whatsapp icon"></i>
                                         </div>
                                         <span>واتس‌اپ</span>
                                     </a>
-                                    <!-- لینک اینستاگرام -->
                                     <a href="https://instagram.com/username" class="button" aria-label="لینک به اینستاگرام">
                                         <div class="icon-container">
                                             <i class="fab fa-instagram icon"></i>
                                         </div>
                                         <span>اینستاگرام</span>
                                     </a>
-                                    <!-- ایمیل -->
                                     <a href="mailto:example@example.com" class="button" aria-label="ارسال ایمیل">
                                         <div class="icon-container">
                                             <i class="fas fa-envelope icon"></i>
                                         </div>
                                         <span>ایمیل</span>
                                     </a>
-                                    <!-- آدرس -->
                                     <a href="https://www.google.com/maps?q=your+address" class="button" aria-label="مشاهده آدرس">
                                         <div class="icon-container">
                                             <i class="fas fa-map-marker-alt icon"></i>

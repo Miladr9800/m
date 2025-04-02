@@ -97,12 +97,7 @@
                                 </div>
                             </div>
                             <div class="flex justify-center gap-2 mt-3">
-                                <button class="is-elevated text-white bg-blue-700 hover:bg-blue-800 transition-all focus:ring-4 focus:outline-none font-medium rounded-xl text-sm py-2.5 text-center inline-flex items-center" aria-label="نمایش لوکیشن">
-                                    <i class="fas fa-location-arrow icon"></i> لوکیشن
-                                </button>
-                                <button class="is-elevated text-white bg-blue-700 hover:bg-blue-800 transition-all focus:ring-4 focus:outline-none font-medium rounded-xl text-sm py-2.5 text-center inline-flex items-center" aria-label="دانلود رزومه">
-                                    <i class="fas fa-download icon"></i> دانلود رزومه
-                                </button>
+                                
                                 <form action="https://card.thecartek.com/download-vcf/25" method="post">
                                     <input type="hidden" name="_token" value="5bjKvZp2jaVIhv6xf9O9BEY7HCv0EvEC5XvUl7QX">
                                     <button class="is-elevated text-white bg-blue-700 hover:bg-blue-800 transition-all focus:ring-4 focus:outline-none font-medium rounded-xl text-sm py-2.5 text-center inline-flex items-center" aria-label="ذخیره مخاطب">
@@ -116,37 +111,37 @@
                                         <div class="icon-container">
                                             <i class="fas fa-phone-alt icon"></i>
                                         </div>
-                                        <span>09189444481</span>
+                                        <span>تماس با 09189444481</span>
                                     </a>
-                                    <a href="https://t.me/username" class="button" aria-label="لینک به تلگرام">
+                                    <a href="https://t.me/mobilerezaei_ir" class="button" aria-label="لینک به تلگرام">
                                         <div class="icon-container">
                                             <i class="fab fa-telegram-plane icon"></i>
                                         </div>
-                                        <span>تلگرام</span>
+                                        <span>پیام به تلگرام موبایل رضائی</span>
                                     </a>
                                     <a href="https://wa.me/09189444481" class="button" aria-label="لینک به واتس اپ">
                                         <div class="icon-container">
                                             <i class="fab fa-whatsapp icon"></i>
                                         </div>
-                                        <span>واتس‌اپ</span>
+                                        <span>پیام به واتساپ موبایل رضائی</span>
                                     </a>
                                     <a href="https://instagram.com/username" class="button" aria-label="لینک به اینستاگرام">
                                         <div class="icon-container">
                                             <i class="fab fa-instagram icon"></i>
                                         </div>
-                                        <span>اینستاگرام</span>
+                                        <span>رفتن به اینستاگرام موبایل رضائی</span>
                                     </a>
                                     <a href="mailto:example@example.com" class="button" aria-label="ارسال ایمیل">
                                         <div class="icon-container">
                                             <i class="fas fa-envelope icon"></i>
                                         </div>
-                                        <span>ایمیل</span>
+                                        <span>ارسال ایمیل به موبایل رضائی</span>
                                     </a>
                                     <a href="https://www.google.com/maps?q=your+address" class="button" aria-label="مشاهده آدرس">
                                         <div class="icon-container">
                                             <i class="fas fa-map-marker-alt icon"></i>
                                         </div>
-                                        <span>آدرس</span>
+                                        <span>ایلام سرابله خیابان ولیعصر نبش پاساژ محمدی(مشاهده در نقشه کلیک کنید)</span>
                                     </a>
                                 </div>
                             </div>

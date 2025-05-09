@@ -1,6 +1,12 @@
-<div class="sticky-header">
-  این یک نوار بالایی است
-</div>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://card.thecartek.com/images/ct.png">
+    <link rel="stylesheet" href="https://card.thecartek.com/css/app.css">
+    <link rel="stylesheet" href="https://card.thecartek.com/css/override.css">
+    <!-- لینک به FontAwesome برای استفاده از آیکون‌ها -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
 <!DOCTYPE html>
 <html lang="en">
 <head>

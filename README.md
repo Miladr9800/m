@@ -2,15 +2,9 @@
 <html lang="fa">
 <head>
   <meta charset="UTF-8">
-  <title>صفحه تست</title>
-  <style>
-    /* تبدیل تمام متن به حروف کوچک */
-    h1 {
-      text-transform: lowercase;
-    }
-  </style>
+  <title>صفحه002 تست</title>
 </head>
 <body>
-  <h1>سلام، این یک صفحه آزمایشی است</h1>
+  <h1>سلام، این یک0002 صفحه آزمایشی است</h1>
 </body>
 </html>

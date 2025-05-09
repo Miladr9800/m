@@ -1,4 +1,6 @@
-<h1 style="font-size: 1px;">سر تیتر بسیار کوچک</h1>
+<div class="sticky-header">
+  این یک نوار بالایی است
+</div>
 <!DOCTYPE html>
 <html lang="en">
 <head>
